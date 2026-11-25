@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nasi Goreng Pak Bian - Nasi goreng street food dengan bumbu rahasia, dimasak langsung saat dipesan.">
+  <title>Nasi Goreng Pak Bian | Nikmatnya Bikin Ketagihan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#beranda" class="logo">
+        <span class="logo-icon">🍳</span>
+        <span class="logo-text">Nasi Goreng <strong>Pak Bian</strong></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#beranda" class="nav-link">Beranda</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#tentang" class="nav-link">Tentang Kami</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="cart-btn" id="openCart" aria-label="Buka keranjang">
+          🛒 <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Buka menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ BERANDA ============ -->
+    <section class="hero" id="beranda">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <span class="badge">🔥 Street Food Favorit</span>
+          <h1>Nikmatnya Nasi Goreng, <span>Bikin Ketagihan!</span></h1>
+          <p>
+            Nasi Goreng Pak Bian hadir dengan bumbu rahasia dan api besar khas gerobak kaki lima.
+            Dimasak langsung saat dipesan, porsi pas, harga bersahabat, dan rasa yang
+            bikin kamu pengin nambah lagi.
+          </p>
+          <div class="hero-buttons">
+            <a href="#menu" class="btn btn-primary">Pesan Sekarang</a>
+            <a href="#tentang" class="btn btn-outline">Kenali Kami</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>6</strong><span>Pilihan Menu</span></li>
+            <li><strong>100%</strong><span>Dimasak Fresh</span></li>
+            <li><strong>5★</strong><span>Rasa Juara</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80"
+               alt="Sepiring nasi goreng hangat" data-emoji="🍛">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Menu Kami</span>
+          <h2>Pilih Nasi Goreng Favoritmu</h2>
+          <p>Semua menu dimasak segar dengan bahan pilihan. Klik tombol keranjang untuk memesan.</p>
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+          <!-- Kartu produk dibuat otomatis oleh script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TENTANG KAMI ============ -->
+    <section class="section section-dark" id="tentang">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=900&q=80"
+               alt="Nasi goreng dimasak di atas wajan" data-emoji="👨‍🍳">
+        </div>
+
+        <div class="about-text">
+          <span class="section-tag">Tentang Kami</span>
+          <h2>Dari Gerobak Kecil, Jadi Langganan Banyak Orang</h2>
+          <p>
+            Nasi Goreng Pak Bian bermula dari sebuah gerobak sederhana di pinggir jalan.
+            Dengan resep keluarga dan semangat melayani, Pak Bian menyajikan nasi goreng
+            yang gurih, harum, dan selalu hangat. Dari mulut ke mulut, pelanggan terus bertambah
+            hingga kini menjadi langganan warga sekitar.
+          </p>
+
+          <div class="features">
+            <div class="feature">
+              <span>🥬</span>
+              <div>
+                <h4>Bahan Segar Pilihan</h4>
+                <p>Beras, telur, ayam, dan sayuran dibeli segar setiap hari.</p>
+              </div>
+            </div>
+            <div class="feature">
+              <span>🌶️</span>
+              <div>
+                <h4>Bumbu Rahasia</h4>
+                <p>Racikan bumbu khas yang menghasilkan rasa gurih dan aroma wangi.</p>
+              </div>
+            </div>
+            <div class="feature">
+              <span>⚡</span>
+              <div>
+                <h4>Pelayanan Cepat & Ramah</h4>
+                <p>Dimasak langsung saat dipesan, disajikan hangat dengan senyuman.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LOKASI & KONTAK ============ -->
+    <section class="section" id="kontak">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Lokasi & Kontak</span>
+          <h2>Mampir atau Hubungi Kami</h2>
+          <p>Kami siap melayani makan di tempat, bungkus, maupun pesan antar.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="info-item">
+              <span>📍</span>
+              <div>
+                <h4>Alamat</h4>
+                <p>Jl. Sd.melati, Gunung Sindur, Kabupaten Bogor, Jawa barat</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span>💬</span>
+              <div>
+                <h4>WhatsApp</h4>
+                <p><a href="https://wa.me/6283872485353" target="_blank" rel="noopener">0812-3456-7890</a></p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span>🕔</span>
+              <div>
+                <h4>Jam Operasional</h4>
+                <p>Setiap hari, 16.00 – 23.00 WIB</p>
+              </div>
+            </div>
+
+            <div class="map-box">
+              <iframe
+                title="Lokasi Nasi Goreng Pak Bian"
+                src="https://www.google.com/maps?q=-6.4010971,106.7078538&z=19&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <h3>Kirim Pesan</h3>
+
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" placeholder="Nama kamu">
+            <small class="error" id="errNama"></small>
+
+            <label for="noHp">Nomor HP / WhatsApp</label>
+            <input type="tel" id="noHp" placeholder="08xxxxxxxxxx">
+            <small class="error" id="errHp"></small>
+
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" rows="5" placeholder="Tulis pesan atau pertanyaan kamu..."></textarea>
+            <small class="error" id="errPesan"></small>
+
+            <button type="submit" class="btn btn-primary btn-block">Kirim via WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-logo">🍳 Nasi Goreng <span>Pak Bian</span></h3>
+        <p>Nasi goreng street food dengan rasa juara dan harga bersahabat.</p>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <p>📍Jl. Sd.melati, Gunung Sindur, Kabupaten Bogor, Jawa barat</p>
+        <p>💬 0838-7248-5353</p>
+      </div>
+      <div>
+        <h4>Jam Operasional</h4>
+        <p>Senin – Minggu</p>
+        <p>16.00 – 23.00 WIB</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year">2026</span> Nasi Goreng Pak Bian. Seluruh hak cipta dilindungi.
+    </div>
+  </footer>
+
+  <!-- ============ KERANJANG (SIDEBAR) ============ -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart" id="cart" aria-label="Keranjang belanja">
+    <div class="cart-header">
+      <h3>🛒 Keranjang Pesanan</h3>
+      <button class="close-btn" id="closeCart" aria-label="Tutup keranjang">&times;</button>
+    </div>
+
+    <div class="cart-items" id="cartItems">
+      <!-- Item keranjang dibuat otomatis oleh script.js -->
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total</span>
+        <strong id="cartTotal">Rp0</strong>
+      </div>
+      <input type="text" id="customerName" placeholder="Nama pemesan (opsional)">
+      <button class="btn btn-whatsapp btn-block" id="checkoutBtn">Checkout via WhatsApp</button>
+      <button class="btn-clear" id="clearCart">Kosongkan keranjang</button>
+    </div>
+  </aside>
+
+  <!-- Notifikasi kecil -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
